@@ -1,0 +1,11 @@
+
+sum = (a, b) => a + b;
+
+substract = (a, b) => a - b;
+
+multiply = (a, b) => a * b;
+
+divide = (a, b) => a / b;
+
+operator = (operator,a,b) => operator(a,b);
+
