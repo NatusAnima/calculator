@@ -13,30 +13,30 @@
 <body>
     <div class="container">
         <div class="numberDisplay">
-            <div>1234567890</div>
+            <div id="displayedNumber">0</div>
         </div>
         <button id="clear" class="button">CLEAR</button>
         <div class="buttonContainer">
             
             <div class="numberButtons">
-                <button class="button">1</button>
-                <button class="button">2</button>
-                <button class="button">3</button>
-                <button class="button">4</button>
-                <button class="button">5</button>
-                <button class="button">6</button>
-                <button class="button">7</button>
-                <button class="button">8</button>
-                <button class="button">9</button>
-                <button class="button">0</button>
+                <button class="button" onclick="actions(1)">1</button>
+                <button class="button" onclick="actions(2)">2</button>
+                <button class="button" onclick="actions(3)">3</button>
+                <button class="button" onclick="actions(4)">4</button>
+                <button class="button" onclick="actions(5)">5</button>
+                <button class="button" onclick="actions(6)">6</button>
+                <button class="button" onclick="actions(7)">7</button>
+                <button class="button" onclick="actions(8)">8</button>
+                <button class="button" onclick="actions(9)">9</button>
+                <button class="button" onclick="actions(0)">0</button>
             </div>
             <div class="actionButtons">
-                <button id="delete" class="button">→</button>
-                <button class="button actionButton">+</button>
-                <button class="button actionButton">-</button>
-                <button class="button actionButton">/</button>
-                <button class="button actionButton" id="multiplication">*</button>
-                <button class="button actionButton">=</button>
+                <button id="delete" class="button" onclick="actions('Backspace')">→</button>
+                <button class="button actionButton" onclick="actions('&#43')">+</button>
+                <button class="button actionButton" onclick="actions('-')">-</button>
+                <button class="button actionButton" onclick="actions('/')">/</button>
+                <button class="button actionButton" id="multiplication" onclick="actions('*')">*</button>
+                <button class="button actionButton" onclick="actions('=')" onclick="actions('Enter')">Ans</button>
                 
             </div>
                 
